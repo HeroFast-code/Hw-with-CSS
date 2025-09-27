@@ -1,0 +1,144 @@
+/* Color Classes */
+.first-color { 
+    background: #ececec; /* Light background color */
+    color: #142d4c; /* Dark text color */
+}
+
+.second-color { 
+    background: #9fd3c7; /* Light green background */
+    color: #142d4c; /* Dark text color */
+}
+
+.third-color { 
+    background: #385170; /* Blue background */
+    color: #ececec; /* Light text color */
+}
+
+.fourth-color { 
+    background: #142d4c; /* Dark blue background */
+    color: #ececec; /* Light text color */
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ececec; /* Apply first color as body background */
+    color: #142d4c; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    background-color: #385170; /* Third color */
+    color: #ececec; /* Light text color */
+    padding: 20px;
+}
+
+h4.Copyright {
+    text-align: right;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #385170; /* Third color */
+    color: #ececec; /* Light text color */
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: left;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #385170; /* Third color */
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation li {
+    margin-right: 20px;
+    color: #ececec; /* Light text color */
+}
+
+.navigation li a {
+    color: #ececec; /* Light text color for links */
+    text-decoration: none;
+}
+
+/* Register Section */
+#register1 {
+    background-color: #9fd3c7; /* Second color */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#register1 label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #142d4c; /* Dark text color */
+}
+
+#register1 input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid #385170; /* Blue border */
+    border-radius: 5px;
+}
+
+#register1 input[type="submit"] {
+    background-color: #142d4c; /* Fourth color */
+    color: #ececec; /* Light text color */
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#register1 input[type="submit"]:hover {
+    background-color: #385170; /* Third color */
+}
+
+/* About Section */
+.About {
+    background-color: #9fd3c7; /* Second color */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.About a {
+    display: block;
+    font-size: 18px;
+    color: #142d4c; /* Dark text color */
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.About a:hover {
+    color: #385170; /* Third color for hover */
+}
+
+/* Paragraph Styling */
+p.paragraph {
+    font-size: 14px;
+    color: #142d4c; /* Dark text color */
+    text-align: center;
+    font-weight: bold;
+    background-color: #ececec; /* First color */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #385170; /* Third color */
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #ececec; /* Light text color */
+}
