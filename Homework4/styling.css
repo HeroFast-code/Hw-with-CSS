@@ -1,0 +1,43 @@
+#h1withinline{
+    text-align: center;
+    display: inline;
+    width: 25%;
+    background-color: lightblue;
+}
+#h1withinline2{
+    text-align: center;
+    display: inline;
+    width: 25%;
+    background-color: rgb(34, 130, 162);
+}
+#h1withinline3{
+    display: inline;
+    width: 25%;
+    background-color: rgb(51, 102, 119);
+}
+#pwithinline{
+    display: inline;
+    background-color: lightslategrey;
+}
+#pwithinline2{
+    display: inline;
+    background-color: rgb(123, 162, 202);
+}
+#pwithoutinline{
+    background-color: rgb(90, 123, 136);
+}
+#imgwithblock{
+    display: block;
+}
+#imgwithoutblock{
+    display: inline;
+}
+.container #h2withinline{
+    display: inline;
+    background-color: lightgreen;
+    margin-left: 50px;
+}
+a{
+    display: block;
+    margin-left: 20px;
+}
