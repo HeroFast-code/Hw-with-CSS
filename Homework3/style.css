@@ -1,0 +1,50 @@
+.withpx{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(24, 115, 145);
+}
+.withem{
+    font-size: 1em;
+    background-color: rgb(24, 115, 145);
+}
+.withem2{
+    font-size: 1em;
+    background-color: rgb(44, 145, 24);
+}
+html{
+    font-size: 12px; /* Base font size */
+    font-family: Arial, sans-serif;
+}
+.withrem{
+    font-size: 1.5rem;
+    background-color: rgb(46, 24, 145);
+}
+.withrem2{
+    font-size: 1.5rem;
+    background-color: rgb(145, 24, 131);
+}
+.withpercent{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(24, 115, 145);
+}
+.withpercent2{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(133, 182, 198);
+}
+.withpercent{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(24, 115, 145);
+    color:rgba(93, 47, 47, 0.8)
+}
+.withpercent2{
+    width: 50%;
+    height: 100px;
+    background-color: rgb(133, 182, 198);
+    color:rgba(red, green, blue, alpha)
+}
+body{
+    background-color: #9fd3c7
+}
