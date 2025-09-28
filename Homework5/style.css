@@ -1,0 +1,81 @@
+#input1:focus{
+    border-color: rgb(187, 196, 188);
+    color:rgb(3, 3, 73);
+    width: 300px;
+ }
+#input1{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#button1{
+    background-color: rgb(0, 128, 255);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#button1:hover{
+    background-color: rgb(0, 102, 204);
+}
+.listitem:first-child{
+    list-style-type: square;
+    color: blue;
+    font-size: 20px;
+}
+.listitem:first-child:hover{
+    list-style-type: square;
+    color: rgb(38, 38, 120);
+    font-size: 25px;
+}
+.listitem:nth-child(odd):hover{
+    list-style-type: square;
+    color: rgb(246, 255, 0);
+    font-size: 20px;
+}
+.listitem:nth-child(even):hover{
+    list-style-type: square;
+    color: rgb(0, 255, 4);
+    font-size: 25px;
+}
+.listitem:last-child{
+    list-style-type: square;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+.listitem:last-child:hover{
+    list-style-type: square;
+    color: rgb(141, 107, 107);
+    font-size: 16px;
+}
+a:hover{
+    color: red;
+}
+a{
+    display: block;
+    color: blue;
+}
+#button2:hover{
+    background-color: rgb(0, 102, 204);
+    color: white;
+}
+#div1 .product-item:nth-child(odd){
+    background-color: rgb(69, 103, 140);
+    color: white;
+}
+#div1 .product-item:nth-child(even){
+    background-color: rgb(22, 76, 134);
+    color: white;
+}
+#div1 .product-item:nth-child(odd):hover{
+    background-color: rgb(125, 22, 134);
+    color: white;
+    font-size: 18px;
+}
+#div1 .product-item:nth-child(even):hover{
+    background-color: rgb(22, 134, 70);
+    color: white;
+    font-size: 18px;
+}
